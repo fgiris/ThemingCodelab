@@ -7,14 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainFragment">
 
+    <!--  TODO#2 Apply AwesomeTextStyle to the text with style  -->
+    <!--  TODO#3 Make the text color as colorPrimary by adding android:textColor to text  -->
+    <!--  TODO#4 Remove android:style and android:textColor and use android:textAppearance to set AwesomeTextStyle  -->
+    <!--  TODO#5 Remove android:textAppearance  -->
+
     <TextView
-        android:id="@+id/message"
+        android:id="@+id/tvTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MainFragment"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Go to white themed fragment"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  TODO#8 Add another text view  -->
+
+    <!--  TODO#27 Add button to be able to change to dark theme  -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

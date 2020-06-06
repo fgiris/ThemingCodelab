@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="indigo_500">#3f51b5</color>
+    <color name="indigo_500_dark">#002884</color>
+    <color name="purple_600">#8e24aa</color>
+
+    <!-- TODO#15 Add another color called white whose value is #FFFFFF-->
+    <!-- TODO#15 Add another color called blue_600 whose value is #FF1A237E-->
+
+    <!-- Night colors -->
+    <color name="blue_grey_700">#455a64</color>
+    <color name="blue_grey_700_dark">#1c313a</color>
+    <color name="deep_orange_400">#ff7043</color>
+
 </resources>

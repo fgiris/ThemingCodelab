@@ -1,10 +1,30 @@
 <resources>
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!--  TODO#7  Add a common text view style -->
+    <!--  TODO#12  Rename theme to Base.Theme.ThemingSample -->
+    <style name="Base.Theme.ThemingSample" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="colorPrimaryDark">@color/indigo_500_dark</item>
+        <item name="colorAccent">@color/purple_600</item>
+        <!--  TODO#23  Set textColorBody theme attr to black  -->
     </style>
+
+    <!--  TODO#14  Add another theme called Theme.ThemingSample.White whose parent is base theme -->
+    <!--  TODO#16  Change surface color to white -->
+    <!--  TODO#24  Set textColorBody theme attr to dark green  -->
+
+
+    <!--  TODO#17  Add another theme called Theme.ThemingSample.Blue whose parent is base theme -->
+    <!--  TODO#18  Change surface color to blue -->
+    <!--  TODO#25  Set textColorBody theme attr to white  -->
+
+
+    <!--  TODO#1  Add a custom style named AwesomeTextStyle for the text to change the text color with color accent -->
+    <!--  TODO#6  Add parent as Widget.AppCompat.TextView and rename it as Widget.ThemingSample.TextView -->
+    <!--  TODO#11  Remove text color and add textAppereance as TextAppearance.ThemingSample.Body -->
+
+
+    <!--  TODO#9  Add TextAppearance.ThemingSample.Body and inherit from TextAppearance.AppCompat.Body1 -->
+    <!--  TODO#10  Add android:textColor as color primary inside TextAppearance.ThemingSample.Body -->
+    <!--  TODO#22  Change the color with the theme attribute textColorBody -->
 
 </resources>
