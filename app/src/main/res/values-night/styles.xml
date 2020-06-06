@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  TODO#26  Add colors for dark mode -->
+    <style name="Base.Theme.ThemingSample" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue_grey_700</item>
+        <item name="colorPrimaryDark">@color/blue_grey_700_dark</item>
+        <item name="colorAccent">@color/deep_orange_400</item>
+        <item name="android:textViewStyle">@style/Widget.ThemingSample.TextView</item>
+        <item name="bodyTextColor">@android:color/black</item>
+    </style>
+
+    <style name="Theme.ThemingSample.White" parent="Base.Theme.ThemingSample">
+        <item name="surfaceColor">@color/white</item>
+        <item name="bodyTextColor">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="Theme.ThemingSample.Blue" parent="Base.Theme.ThemingSample">
+        <item name="surfaceColor">@color/blue_600</item>
+        <item name="bodyTextColor">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  TODO#13  Add an attribute called bodyTextColor and surfaceColor whose format is color -->
+    <attr name="bodyTextColor" format="color" />
+    <attr name="surfaceColor" format="color" />
+</resources>
